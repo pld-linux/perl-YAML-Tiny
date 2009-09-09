@@ -8,13 +8,13 @@
 Summary:	YAML::Tiny - Read/Write YAML files with as little code as possible
 #Summary(pl.UTF-8):	
 Name:		perl-YAML-Tiny
-Version:	1.39
+Version:	1.40
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/YAML/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	549d0d26bc4d9609ed43b84aec20cf19
+# Source0-md5:	412bba484e5a3ab53308a0d731d853a6
 URL:		http://search.cpan.org/dist/YAML-Tiny/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
