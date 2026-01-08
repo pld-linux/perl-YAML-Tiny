@@ -1,6 +1,6 @@
 #
 # Conditional build:
-%bcond_without	tests		# do not perform "make test"
+%bcond_without	tests	# unit tests
 #
 %define	pdir	YAML
 %define	pnam	Tiny
@@ -15,12 +15,15 @@ Group:		Development/Languages/Perl
 Source0:	https://www.cpan.org/modules/by-module/YAML/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	0ba27f37b09d84720a4f257fae7045f7
 URL:		https://search.cpan.org/dist/YAML-Tiny/
+BuildRequires:	perl-ExtUtils-MakeMaker
 BuildRequires:	perl-devel >= 1:5.8.1
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	rpmbuild(macros) >= 1.745
 %if %{with tests}
 BuildRequires:	perl(File::Spec) >= 0.80
 BuildRequires:	perl-File-Temp >= 0.19
 BuildRequires:	perl-JSON-PP
+BuildRequires:	perl-Scalar-List-Utils
 BuildRequires:	perl-Test-Simple >= 0.88
 %endif
 BuildArch:	noarch
