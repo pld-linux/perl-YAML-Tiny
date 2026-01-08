@@ -14,7 +14,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	https://www.cpan.org/modules/by-module/YAML/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	0ba27f37b09d84720a4f257fae7045f7
-URL:		https://search.cpan.org/dist/YAML-Tiny/
+URL:		https://metacpan.org/dist/YAML-Tiny
 BuildRequires:	perl-ExtUtils-MakeMaker
 BuildRequires:	perl-devel >= 1:5.8.1
 BuildRequires:	rpm-perlprov >= 4.1-13
