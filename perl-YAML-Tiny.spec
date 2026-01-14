@@ -8,7 +8,7 @@ Summary:	YAML::Tiny - Read/Write YAML files with as little code as possible
 Summary(pl.UTF-8):	YAML::Tiny - odczyt i zapis plików YAML z użyciem jak najmniejszego kodu
 Name:		perl-YAML-Tiny
 Version:	1.76
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
